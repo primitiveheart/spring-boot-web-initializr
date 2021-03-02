@@ -1,0 +1,17 @@
+# tomcat 配置
+server:
+  #  tomcat 端口配置
+  port: 8080
+  servlet:
+    #    context上下路径配置
+    context-path: /spring-boot-web-initializr
+
+
+#swagger2 配置
+swagger:
+  enable: true
+  base-package: com.zgb.spring.boot.web.initializr.business.controller
+  title: spring-boot-web-initalizr
+  description: Spring Boot Web Initalizr
+  version: 1.0
+
